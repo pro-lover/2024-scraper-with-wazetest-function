@@ -1,4 +1,5 @@
 const fs = require('fs/promises');
+
 async function generatePageLinks(url){
 
     const pageLinks = [];
@@ -61,9 +62,30 @@ const scraperObject = {
                 return content.classList;
              } );
 
+             const contentPosition = Array.from(document.querySelectorAll('.leaflet-marker-icon')).map(content => {
+
+                return content;
+             } );
+
+             const contentText = Array.from(document.querySelectorAll('.leaflet-marker-icon')).map(content => {
+
+                return content.textContent;
+             } );
+
              for (let index = 0; index < content.length; index++) {
 
-                 mapData.push({Name: content[index].item(2)})
+                 mapData.push({
+                    id: index ,
+                    name: content[index].item(2),
+                    icon_id_on_waze: contentPosition[index]._leaflet_id,
+                    translate3d: {
+                        tx: contentPosition[index]._leaflet_pos.x,
+                        ty: contentPosition[index]._leaflet_pos.y,
+                        tz: 0
+                    },
+                    text: contentText[index],
+                    background: Array.from(document.querySelectorAll(content[index].item(2))).map(bg => {return bg}),
+                 })
                 
              }
 
@@ -84,6 +106,8 @@ const scraperObject = {
           }
 
           saveData(classList);
+
+          
         // const classes = await page.$eval( wm-jam__level
         //     'div.wm-alert-icon.leaflet-interactive', 
         //     el => [...el.classList]
@@ -102,17 +126,7 @@ const scraperObject = {
         );
 
 
-        /** /
-        const columnData = await page.$$eval('div.wm-alert-icon.leaflet-interactive', columns => {
 
-            //console.log('ALERTS:', columns);
-            
-            return columns.map(content => content.get);
-
-            //return columns;
-            
-        });
-        /**/
 
         return classes;
 
