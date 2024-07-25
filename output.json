@@ -26,10 +26,10 @@
   {
     "id": 2,
     "name": "wm-alert-icon--police",
-    "icon_id_on_waze": 609,
+    "icon_id_on_waze": 472,
     "translate3d": {
-      "tx": -6,
-      "ty": -153,
+      "tx": 676,
+      "ty": 250,
       "tz": 0
     },
     "text": "",
@@ -37,11 +37,11 @@
   },
   {
     "id": 3,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 610,
+    "name": "wm-alert-icon--police",
+    "icon_id_on_waze": 473,
     "translate3d": {
-      "tx": -126,
-      "ty": 259,
+      "tx": 465,
+      "ty": 170,
       "tz": 0
     },
     "text": "",
@@ -49,11 +49,11 @@
   },
   {
     "id": 4,
-    "name": "wm-alert-cluster-icon--hazard",
-    "icon_id_on_waze": 611,
+    "name": "wm-alert-icon--hazard",
+    "icon_id_on_waze": 474,
     "translate3d": {
-      "tx": 493,
-      "ty": -17,
+      "tx": 201,
+      "ty": 234,
       "tz": 0
     },
     "text": "",
@@ -61,11 +61,11 @@
   },
   {
     "id": 5,
-    "name": "wm-alert-icon--police",
-    "icon_id_on_waze": 612,
+    "name": "wm-alert-icon--hazard",
+    "icon_id_on_waze": 475,
     "translate3d": {
-      "tx": 443,
-      "ty": 324,
+      "tx": 277,
+      "ty": 223,
       "tz": 0
     },
     "text": "",
@@ -74,7 +74,7 @@
   {
     "id": 6,
     "name": "wm-alert-cluster-icon--road-closed",
-    "icon_id_on_waze": 613,
+    "icon_id_on_waze": 476,
     "translate3d": {
       "tx": 539,
       "ty": 311,
@@ -85,11 +85,11 @@
   },
   {
     "id": 7,
-    "name": "wm-alert-cluster-icon--police",
-    "icon_id_on_waze": 614,
+    "name": "wm-alert-icon--hazard",
+    "icon_id_on_waze": 477,
     "translate3d": {
-      "tx": 647,
-      "ty": 272,
+      "tx": 103,
+      "ty": 422,
       "tz": 0
     },
     "text": "",
@@ -98,7 +98,7 @@
   {
     "id": 8,
     "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 615,
+    "icon_id_on_waze": 478,
     "translate3d": {
       "tx": 28,
       "ty": 279,
@@ -109,11 +109,11 @@
   },
   {
     "id": 9,
-    "name": "wm-alert-icon--police",
-    "icon_id_on_waze": 616,
+    "name": "wm-alert-cluster-icon--hazard",
+    "icon_id_on_waze": 479,
     "translate3d": {
-      "tx": 45,
-      "ty": 138,
+      "tx": -139,
+      "ty": 247,
       "tz": 0
     },
     "text": "",
@@ -121,11 +121,11 @@
   },
   {
     "id": 10,
-    "name": "wm-alert-cluster-icon--hazard",
-    "icon_id_on_waze": 617,
+    "name": "wm-alert-icon--hazard",
+    "icon_id_on_waze": 499,
     "translate3d": {
-      "tx": 238,
-      "ty": 215,
+      "tx": 689,
+      "ty": -103,
       "tz": 0
     },
     "text": "",
@@ -133,11 +133,11 @@
   },
   {
     "id": 11,
-    "name": "wm-alert-icon--police",
-    "icon_id_on_waze": 637,
+    "name": "wm-alert-icon--hazard",
+    "icon_id_on_waze": 500,
     "translate3d": {
-      "tx": -13,
-      "ty": -146,
+      "tx": 203,
+      "ty": 233,
       "tz": 0
     },
     "text": "",
@@ -145,11 +145,11 @@
   },
   {
     "id": 12,
-    "name": "wm-alert-cluster-icon--police",
-    "icon_id_on_waze": 638,
+    "name": "wm-alert-icon--hazard",
+    "icon_id_on_waze": 501,
     "translate3d": {
-      "tx": 631,
-      "ty": 279,
+      "tx": 3,
+      "ty": 243,
       "tz": 0
     },
     "text": "",
@@ -158,10 +158,10 @@
   {
     "id": 13,
     "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 659,
+    "icon_id_on_waze": 502,
     "translate3d": {
-      "tx": 492,
-      "ty": 76,
+      "tx": -111,
+      "ty": 268,
       "tz": 0
     },
     "text": "",
@@ -170,10 +170,10 @@
   {
     "id": 14,
     "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 660,
+    "icon_id_on_waze": 503,
     "translate3d": {
-      "tx": 91,
-      "ty": 418,
+      "tx": -50,
+      "ty": 203,
       "tz": 0
     },
     "text": "",
@@ -181,11 +181,11 @@
   },
   {
     "id": 15,
-    "name": "wm-alert-cluster-icon--hazard",
-    "icon_id_on_waze": 661,
+    "name": "wm-alert-cluster-icon--police",
+    "icon_id_on_waze": 525,
     "translate3d": {
-      "tx": -125,
-      "ty": 265,
+      "tx": 706,
+      "ty": 319,
       "tz": 0
     },
     "text": "",
@@ -195,8 +195,8 @@
     "id": 16,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": -312,
-      "ty": -220,
+      "tx": 854,
+      "ty": -337,
       "tz": 0
     },
     "text": "",
@@ -204,10 +204,10 @@
   },
   {
     "id": 17,
-    "name": "wm-user-icon--peaceful",
+    "name": "wm-user-icon--happy",
     "translate3d": {
       "tx": 871,
-      "ty": -227,
+      "ty": -246,
       "tz": 0
     },
     "text": "",
@@ -215,10 +215,10 @@
   },
   {
     "id": 18,
-    "name": "wm-user-icon--happy",
+    "name": "wm-user-icon--LOL",
     "translate3d": {
-      "tx": 696,
-      "ty": -214,
+      "tx": 370,
+      "ty": -285,
       "tz": 0
     },
     "text": "",
@@ -226,10 +226,10 @@
   },
   {
     "id": 19,
-    "name": "wm-user-icon--happy",
+    "name": "wm-user-icon--sunny",
     "translate3d": {
-      "tx": 114,
-      "ty": -195,
+      "tx": 545,
+      "ty": 506,
       "tz": 0
     },
     "text": "",
@@ -237,10 +237,10 @@
   },
   {
     "id": 20,
-    "name": "wm-user-icon--happy",
+    "name": "wm-user-icon--peaceful",
     "translate3d": {
-      "tx": 656,
-      "ty": 156,
+      "tx": 422,
+      "ty": -207,
       "tz": 0
     },
     "text": "",
@@ -248,10 +248,10 @@
   },
   {
     "id": 21,
-    "name": "wm-user-icon--ninja",
+    "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 283,
-      "ty": 162,
+      "tx": 556,
+      "ty": 214,
       "tz": 0
     },
     "text": "",
@@ -259,10 +259,10 @@
   },
   {
     "id": 22,
-    "name": "wm-user-icon--zombie",
+    "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 661,
-      "ty": 500,
+      "tx": 527,
+      "ty": 285,
       "tz": 0
     },
     "text": "",
@@ -272,8 +272,8 @@
     "id": 23,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 492,
-      "ty": 350,
+      "tx": -108,
+      "ty": 435,
       "tz": 0
     },
     "text": "",
@@ -281,9 +281,9 @@
   },
   {
     "id": 24,
-    "name": "wm-user-icon--peaceful",
+    "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 626,
+      "tx": -195,
       "ty": 279,
       "tz": 0
     },
@@ -292,10 +292,10 @@
   },
   {
     "id": 25,
-    "name": "wm-user-icon--peaceful",
+    "name": "wm-user-icon--sunny",
     "translate3d": {
-      "tx": 195,
-      "ty": 221,
+      "tx": 90,
+      "ty": 344,
       "tz": 0
     },
     "text": "",
@@ -305,8 +305,8 @@
     "id": 26,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 475,
-      "ty": 370,
+      "tx": 685,
+      "ty": 435,
       "tz": 0
     },
     "text": "",
@@ -316,8 +316,8 @@
     "id": 27,
     "name": "wm-user-icon--LOL",
     "translate3d": {
-      "tx": 865,
-      "ty": -266,
+      "tx": 737,
+      "ty": 58,
       "tz": 0
     },
     "text": "",
@@ -325,10 +325,10 @@
   },
   {
     "id": 28,
-    "name": "wm-user-icon--ninja",
+    "name": "wm-user-icon--peaceful",
     "translate3d": {
-      "tx": 661,
-      "ty": -279,
+      "tx": -154,
+      "ty": 227,
       "tz": 0
     },
     "text": "",
@@ -336,10 +336,10 @@
   },
   {
     "id": 29,
-    "name": "wm-user-icon--LOL",
+    "name": "wm-user-icon--inlove",
     "translate3d": {
-      "tx": 702,
-      "ty": 357,
+      "tx": 102,
+      "ty": 97,
       "tz": 0
     },
     "text": "",
@@ -347,10 +347,10 @@
   },
   {
     "id": 30,
-    "name": "wm-user-icon--sunny",
+    "name": "wm-user-icon--peaceful",
     "translate3d": {
-      "tx": 195,
-      "ty": 247,
+      "tx": -224,
+      "ty": -123,
       "tz": 0
     },
     "text": "",
@@ -358,10 +358,10 @@
   },
   {
     "id": 31,
-    "name": "wm-user-icon--LOL",
+    "name": "wm-user-icon--inlove",
     "translate3d": {
-      "tx": 189,
-      "ty": 461,
+      "tx": -131,
+      "ty": 32,
       "tz": 0
     },
     "text": "",
@@ -369,10 +369,10 @@
   },
   {
     "id": 32,
-    "name": "wm-user-icon--happy",
+    "name": "wm-user-icon--sunny",
     "translate3d": {
-      "tx": 760,
-      "ty": 396,
+      "tx": -148,
+      "ty": -169,
       "tz": 0
     },
     "text": "",
@@ -382,8 +382,8 @@
     "id": 33,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 428,
-      "ty": 260,
+      "tx": 492,
+      "ty": 195,
       "tz": 0
     },
     "text": "",
@@ -391,10 +391,10 @@
   },
   {
     "id": 34,
-    "name": "wm-user-icon--happy",
+    "name": "wm-user-icon--zombie",
     "translate3d": {
-      "tx": 254,
-      "ty": 221,
+      "tx": -189,
+      "ty": 123,
       "tz": 0
     },
     "text": "",
@@ -402,10 +402,10 @@
   },
   {
     "id": 35,
-    "name": "wm-user-icon--ninja",
+    "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 481,
-      "ty": 123,
+      "tx": 696,
+      "ty": 214,
       "tz": 0
     },
     "text": "",
