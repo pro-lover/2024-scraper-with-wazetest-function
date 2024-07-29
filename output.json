@@ -25,11 +25,11 @@
   },
   {
     "id": 2,
-    "name": "wm-alert-icon--police",
-    "icon_id_on_waze": 472,
+    "name": "wm-alert-icon--hazard-on-road-pot-hole",
+    "icon_id_on_waze": 395,
     "translate3d": {
-      "tx": 676,
-      "ty": 250,
+      "tx": 499,
+      "ty": -34,
       "tz": 0
     },
     "text": "",
@@ -37,11 +37,11 @@
   },
   {
     "id": 3,
-    "name": "wm-alert-icon--police",
-    "icon_id_on_waze": 473,
+    "name": "wm-alert-icon--hazard-on-road-pot-hole",
+    "icon_id_on_waze": 396,
     "translate3d": {
-      "tx": 465,
-      "ty": 170,
+      "tx": 606,
+      "ty": 308,
       "tz": 0
     },
     "text": "",
@@ -49,32 +49,8 @@
   },
   {
     "id": 4,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 474,
-    "translate3d": {
-      "tx": 201,
-      "ty": 234,
-      "tz": 0
-    },
-    "text": "",
-    "background": []
-  },
-  {
-    "id": 5,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 475,
-    "translate3d": {
-      "tx": 277,
-      "ty": 223,
-      "tz": 0
-    },
-    "text": "",
-    "background": []
-  },
-  {
-    "id": 6,
     "name": "wm-alert-cluster-icon--road-closed",
-    "icon_id_on_waze": 476,
+    "icon_id_on_waze": 397,
     "translate3d": {
       "tx": 539,
       "ty": 311,
@@ -84,12 +60,36 @@
     "background": []
   },
   {
-    "id": 7,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 477,
+    "id": 5,
+    "name": "wm-alert-icon--hazard-on-road-pot-hole",
+    "icon_id_on_waze": 398,
     "translate3d": {
-      "tx": 103,
-      "ty": 422,
+      "tx": 76,
+      "ty": 418,
+      "tz": 0
+    },
+    "text": "",
+    "background": []
+  },
+  {
+    "id": 6,
+    "name": "wm-alert-icon--police",
+    "icon_id_on_waze": 399,
+    "translate3d": {
+      "tx": 129,
+      "ty": 97,
+      "tz": 0
+    },
+    "text": "",
+    "background": []
+  },
+  {
+    "id": 7,
+    "name": "wm-alert-icon--hazard-on-road-construction",
+    "icon_id_on_waze": 400,
+    "translate3d": {
+      "tx": 192,
+      "ty": 201,
       "tz": 0
     },
     "text": "",
@@ -97,8 +97,32 @@
   },
   {
     "id": 8,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 478,
+    "name": "wm-alert-icon--hazard-on-road",
+    "icon_id_on_waze": 401,
+    "translate3d": {
+      "tx": -54,
+      "ty": 416,
+      "tz": 0
+    },
+    "text": "",
+    "background": []
+  },
+  {
+    "id": 9,
+    "name": "wm-alert-icon--accident",
+    "icon_id_on_waze": 402,
+    "translate3d": {
+      "tx": -179,
+      "ty": 126,
+      "tz": 0
+    },
+    "text": "",
+    "background": []
+  },
+  {
+    "id": 10,
+    "name": "wm-alert-icon--hazard-on-road-pot-hole",
+    "icon_id_on_waze": 403,
     "translate3d": {
       "tx": 28,
       "ty": 279,
@@ -108,36 +132,12 @@
     "background": []
   },
   {
-    "id": 9,
-    "name": "wm-alert-cluster-icon--hazard",
-    "icon_id_on_waze": 479,
-    "translate3d": {
-      "tx": -139,
-      "ty": 247,
-      "tz": 0
-    },
-    "text": "",
-    "background": []
-  },
-  {
-    "id": 10,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 499,
-    "translate3d": {
-      "tx": 689,
-      "ty": -103,
-      "tz": 0
-    },
-    "text": "",
-    "background": []
-  },
-  {
     "id": 11,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 500,
+    "name": "wm-alert-icon--hazard-on-road-pot-hole",
+    "icon_id_on_waze": 404,
     "translate3d": {
-      "tx": 203,
-      "ty": 233,
+      "tx": -126,
+      "ty": 259,
       "tz": 0
     },
     "text": "",
@@ -145,11 +145,11 @@
   },
   {
     "id": 12,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 501,
+    "name": "wm-alert-cluster-icon--hazard",
+    "icon_id_on_waze": 423,
     "translate3d": {
-      "tx": 3,
-      "ty": 243,
+      "tx": -53,
+      "ty": 259,
       "tz": 0
     },
     "text": "",
@@ -157,11 +157,11 @@
   },
   {
     "id": 13,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 502,
+    "name": "wm-alert-icon--police",
+    "icon_id_on_waze": 437,
     "translate3d": {
-      "tx": -111,
-      "ty": 268,
+      "tx": 46,
+      "ty": 135,
       "tz": 0
     },
     "text": "",
@@ -169,11 +169,11 @@
   },
   {
     "id": 14,
-    "name": "wm-alert-icon--hazard",
-    "icon_id_on_waze": 503,
+    "name": "wm-alert-icon--police",
+    "icon_id_on_waze": 438,
     "translate3d": {
-      "tx": -50,
-      "ty": 203,
+      "tx": 708,
+      "ty": 331,
       "tz": 0
     },
     "text": "",
@@ -181,11 +181,10 @@
   },
   {
     "id": 15,
-    "name": "wm-alert-cluster-icon--police",
-    "icon_id_on_waze": 525,
+    "name": "wm-user-icon--ninja",
     "translate3d": {
-      "tx": 706,
-      "ty": 319,
+      "tx": 656,
+      "ty": 532,
       "tz": 0
     },
     "text": "",
@@ -193,10 +192,10 @@
   },
   {
     "id": 16,
-    "name": "wm-user-icon--happy",
+    "name": "wm-user-icon--zombie",
     "translate3d": {
-      "tx": 854,
-      "ty": -337,
+      "tx": -224,
+      "ty": 123,
       "tz": 0
     },
     "text": "",
@@ -204,42 +203,9 @@
   },
   {
     "id": 17,
-    "name": "wm-user-icon--happy",
+    "name": "wm-user-icon--inlove",
     "translate3d": {
-      "tx": 871,
-      "ty": -246,
-      "tz": 0
-    },
-    "text": "",
-    "background": []
-  },
-  {
-    "id": 18,
-    "name": "wm-user-icon--LOL",
-    "translate3d": {
-      "tx": 370,
-      "ty": -285,
-      "tz": 0
-    },
-    "text": "",
-    "background": []
-  },
-  {
-    "id": 19,
-    "name": "wm-user-icon--sunny",
-    "translate3d": {
-      "tx": 545,
-      "ty": 506,
-      "tz": 0
-    },
-    "text": "",
-    "background": []
-  },
-  {
-    "id": 20,
-    "name": "wm-user-icon--peaceful",
-    "translate3d": {
-      "tx": 422,
+      "tx": 219,
       "ty": -207,
       "tz": 0
     },
@@ -247,11 +213,44 @@
     "background": []
   },
   {
-    "id": 21,
+    "id": 18,
+    "name": "wm-user-icon--sunny",
+    "translate3d": {
+      "tx": 155,
+      "ty": 123,
+      "tz": 0
+    },
+    "text": "",
+    "background": []
+  },
+  {
+    "id": 19,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 556,
-      "ty": 214,
+      "tx": -306,
+      "ty": 474,
+      "tz": 0
+    },
+    "text": "",
+    "background": []
+  },
+  {
+    "id": 20,
+    "name": "wm-user-icon--happy",
+    "translate3d": {
+      "tx": -201,
+      "ty": 493,
+      "tz": 0
+    },
+    "text": "",
+    "background": []
+  },
+  {
+    "id": 21,
+    "name": "wm-user-icon--inlove",
+    "translate3d": {
+      "tx": -236,
+      "ty": -207,
       "tz": 0
     },
     "text": "",
@@ -261,8 +260,8 @@
     "id": 22,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 527,
-      "ty": 285,
+      "tx": 265,
+      "ty": 234,
       "tz": 0
     },
     "text": "",
@@ -272,8 +271,8 @@
     "id": 23,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": -108,
-      "ty": 435,
+      "tx": 376,
+      "ty": -285,
       "tz": 0
     },
     "text": "",
@@ -283,8 +282,8 @@
     "id": 24,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": -195,
-      "ty": 279,
+      "tx": 621,
+      "ty": 247,
       "tz": 0
     },
     "text": "",
@@ -292,10 +291,10 @@
   },
   {
     "id": 25,
-    "name": "wm-user-icon--sunny",
+    "name": "wm-user-icon--peaceful",
     "translate3d": {
-      "tx": 90,
-      "ty": 344,
+      "tx": 819,
+      "ty": 175,
       "tz": 0
     },
     "text": "",
@@ -305,8 +304,8 @@
     "id": 26,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 685,
-      "ty": 435,
+      "tx": 306,
+      "ty": 260,
       "tz": 0
     },
     "text": "",
@@ -314,10 +313,10 @@
   },
   {
     "id": 27,
-    "name": "wm-user-icon--LOL",
+    "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 737,
-      "ty": 58,
+      "tx": -166,
+      "ty": 318,
       "tz": 0
     },
     "text": "",
@@ -325,10 +324,10 @@
   },
   {
     "id": 28,
-    "name": "wm-user-icon--peaceful",
+    "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": -154,
-      "ty": 227,
+      "tx": 591,
+      "ty": 298,
       "tz": 0
     },
     "text": "",
@@ -336,10 +335,10 @@
   },
   {
     "id": 29,
-    "name": "wm-user-icon--inlove",
+    "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 102,
-      "ty": 97,
+      "tx": 586,
+      "ty": 292,
       "tz": 0
     },
     "text": "",
@@ -347,10 +346,10 @@
   },
   {
     "id": 30,
-    "name": "wm-user-icon--peaceful",
+    "name": "wm-user-icon--ninja",
     "translate3d": {
-      "tx": -224,
-      "ty": -123,
+      "tx": 696,
+      "ty": 396,
       "tz": 0
     },
     "text": "",
@@ -358,10 +357,10 @@
   },
   {
     "id": 31,
-    "name": "wm-user-icon--inlove",
+    "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": -131,
-      "ty": 32,
+      "tx": 96,
+      "ty": 104,
       "tz": 0
     },
     "text": "",
@@ -369,10 +368,10 @@
   },
   {
     "id": 32,
-    "name": "wm-user-icon--sunny",
+    "name": "wm-user-icon--inlove",
     "translate3d": {
-      "tx": -148,
-      "ty": -169,
+      "tx": 108,
+      "ty": -13,
       "tz": 0
     },
     "text": "",
@@ -380,10 +379,10 @@
   },
   {
     "id": 33,
-    "name": "wm-user-icon--happy",
+    "name": "wm-user-icon--peaceful",
     "translate3d": {
-      "tx": 492,
-      "ty": 195,
+      "tx": 533,
+      "ty": -227,
       "tz": 0
     },
     "text": "",
@@ -391,21 +390,10 @@
   },
   {
     "id": 34,
-    "name": "wm-user-icon--zombie",
-    "translate3d": {
-      "tx": -189,
-      "ty": 123,
-      "tz": 0
-    },
-    "text": "",
-    "background": []
-  },
-  {
-    "id": 35,
     "name": "wm-user-icon--happy",
     "translate3d": {
-      "tx": 696,
-      "ty": 214,
+      "tx": 720,
+      "ty": 344,
       "tz": 0
     },
     "text": "",

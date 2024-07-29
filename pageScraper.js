@@ -53,7 +53,16 @@ const scraperObject = {
         await sleep(1000);
         console.log(`Get all Alert Divs..`);
 
+        const three = await page.evaluate(() => {
+            const content = Array.from(document.querySelectorAll('.leaflet-tile-container')).map(content => {
 
+                return content.src;
+             } );
+            return content;
+          });
+        
+          console.log(three);
+  
         const classList = await page.evaluate(() => {
             let mapData = [];
 
@@ -73,10 +82,13 @@ const scraperObject = {
              } );
 
              for (let index = 0; index < content.length; index++) {
-
-                 mapData.push({
+                var switchIndex = 2;
+                if(content[index].item(2) == "wm-alert-icon--hazard") {
+                    switchIndex = 3;
+                }  
+                mapData.push({
                     id: index ,
-                    name: content[index].item(2),
+                    name: content[index].item(switchIndex),
                     icon_id_on_waze: contentPosition[index]._leaflet_id,
                     translate3d: {
                         tx: contentPosition[index]._leaflet_pos.x,
@@ -85,8 +97,7 @@ const scraperObject = {
                     },
                     text: contentText[index],
                     background: Array.from(document.querySelectorAll(content[index].item(2))).map(bg => {return bg}),
-                 })
-                
+                 }) 
              }
 
 

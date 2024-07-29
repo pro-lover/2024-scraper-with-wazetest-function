@@ -5,12 +5,10 @@ fetch('output.json').then(function (response) {
 
     let canvas = document.getElementById('canvas');
     let context = canvas.getContext('2d');
-    //const img = new Image();
-    let img = [];
-    
-    
 
+ 
     canvas.style.background= "rgb(202 190 190)";
+    
     canvas.height = window.innerHeight;
     canvas.width = window.innerWidth;
 
@@ -21,14 +19,9 @@ fetch('output.json').then(function (response) {
         context.font = "15px serif";
         context.fillText(obj[index].text,obj[index].translate3d.tx+400,obj[index].translate3d.ty+390);
        // context.fillText(obj[index].name,obj[index].translate3d.tx+400,obj[index].translate3d.ty+370);
+        console.log(obj[index].name);
+       context.drawImage(document.getElementById(obj[index].name), obj[index].translate3d.tx+400, obj[index].translate3d.ty+400, 40, 40);
 
-       // context.drawImage(document.getElementById(obj[index].name), obj[index].translate3d.tx+400, obj[index].translate3d.ty+400, 40, 40);
-
-        img[index].addEventListener("load", () => {
-            context.drawImage(img[index], obj[index].translate3d.tx+400, obj[index].translate3d.ty+400, 40, 40);
-          });
-
-          img[index].src = "./icon/"+obj[index].name+".png";
     }
 
 }).catch(function (error) {
