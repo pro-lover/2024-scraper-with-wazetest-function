@@ -1,0 +1,22 @@
+{
+  "name": "putitdigital-scraper",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "putitdigital-scraper",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "common": "^0.2.5",
+    "envconfig": "^1.0.2",
+    "moment-timezone": "^0.5.45",
+    "puppeteer": "^22.14.0",
+    "s3-util": "^1.0.0",
+    "server": "^1.0.39",
+    "utils-helpers": "^0.2.5"
+  }
+}
